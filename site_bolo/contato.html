@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vovó Isa Bolos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .centertxt {
+            text-align: center;
+        }
+        .center-table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="wrapper">
+            <div class="menu">
+                <h1 style="color:brown">Rede de Bolos Vovó Isa</h1>
+                <h2 style="color:brown">Bolo molhadinho você só encontra aqui!</h2> 
+                <ul>
+                    <li><a href="index.html" target="_self">Página Principal</a></li><br>
+                    <li><a href="local_atendimento.html" target="_self">Sobre o Local de Atendimento</a></li><br>
+                    <li><a href="horarios.html" target="_self">Horários de Atendimento</a></li><br>
+                    <li><a href="contato.html" target="_self">Contato</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="header">
+                    <img src="imagem-destaque-bolo-aniversrio.jpg" width="560pxl" height="315" alt="A imagem apresenta um bolo de aniversário sabor chocolate com morangos." class="center"><br>
+                </div>
+                <h2 class="centertxt">Entre em Contato Conosco</h2>
+                <h3 class="centertxt">Informações Pessoais</h3>
+                <div class="content">
+                    <form name="Contato" autocomplete="off" method="post" action="#">
+                        <fieldset class="centertxt">
+                            <legend>Formulário para Contato</legend>
+                            <br>
+                            <label>Nome:<input type="text" name="nome"></label><br><br>
+                            <label>E-mail:<input type="email" name="email"></label><br><br>
+                            <label>Assunto:<input type="text" name="assunto"></label><br><br>
+                            <label>Mensagem:</label><br>
+                            <textarea name="mensagem" rows="10" cols="50" placeholder="Digite sua mensagem aqui..."></textarea>
+                            <br>
+                            <input type="reset" value="Limpar">
+                            <button type="submit">Enviar</button>
+                        </fieldset>
+                        <h3 class="centertxt">Endereço</h3> 
+                        <p class="centertxt">
+                            Av. Benjamin Pinto Dias, 1130 - Centro, Belford Roxo - RJ, 26130-000.
+                        </p>
+                        <iframe class="center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29434.048053435446!2d-43.426580428113006!3d-22.755878679106267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9965d08d2e84b7%3A0xace7eab3b3c0de8d!2sNova%20Belford!5e0!3m2!1spt-BR!2sbr!4v1729223898424!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        <br>
+                        <br>
+                    </form>
+                </div>
+                <div class="footer">
+                    <h3 class="centertxt">Informações para Contato Direto</h3>
+                    <p class="centertxt">
+                        Para encomendas e informações, entre em contato conosco: <br>
+                        Telefone: (21) 40028922 <br>
+                        Whatsapp: (21) 969193626 <br>
+                        Email: bolosvovoisa@gmail.com 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

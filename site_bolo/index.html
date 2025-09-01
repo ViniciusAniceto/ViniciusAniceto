@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vovó Isa Bolos</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .centertxt {
+            text-align: center;
+        }
+        .center-table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1 style="color:brown">Rede de Bolos Vovó Isa</h1>
+            <h2 style="color:brown">Bolo molhadinho você só encontra aqui!</h2>
+            <ul>
+                <li><a href="index.html" target="_self">Página Principal</a></li><br>
+                <li><a href="local_atendimento.html" target="_self">Sobre o Local de Atendimento</a></li><br>
+                <li><a href="horarios.html" target="_self">Horários de Atendimento</a></li><br>
+                <li><a href="contato.html" target="_self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h3 class="centertxt" style="color:yellowgreen">Bem-vindo à Rede Vovó Isa!</h3> 
+                <p class="centertxt">
+                    Olá! Estamos felizes em te receber no site da Rede de Bolos Vovó Isa. <br>
+                    Aqui você encontra bolos deliciosos feitos com amor e ingredientes fresquinhos, seguindo as receitas caseiras da vovó. <br> 
+                    Seja para um aniversário, uma festa ou um momento especial, temos o bolo perfeito para adoçar sua vida. Navegue pelo nosso site e descubra as delícias que preparamos para você!
+                    <br>
+                    <br>
+                </p>
+                <img src="bolo.avif" width="560pxl" height="315" alt="A imagem apresenta um bolo de chocolate muito suculento." class="center"><br>
+            </div>
+    
+            <div class="content">
+                <br>
+                <br>
+                <iframe class="center" alt="O vídeo apresenta uma de nossas receitas de bolo." width="560" height="315" src="https://www.youtube.com/embed/SV3o1UEMaRM?si=hHQSv7Adx6w24EYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+                <br>
+                <table class="center-table">
+                    <tr class="centertxt"><th>Bolo</th><th>Coberturas Recomendadas</th><th>Tamanhos Disponíveis</th></tr>
+                    <tr class="centertxt"><td>Banana</td><td>Chocolate, Caramelo e Frutas Vermelhas</td><td>P, M e G</td></tr>
+                    <tr class="centertxt"><td>Chocolate</td><td>Framboesa, Chocoolate Branco e Baunilha</td><td>P, M e G</td></tr>
+                    <tr class="centertxt"><td>Morango</td><td>Chantily, Calde de Morango e Chocolate</td><td>P, M e G </td></tr>
+                </table>
+                <br>
+                <br>
+                <form name="Contato" autocomplete="off" method="post" action="#">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <br>
+                        <label>Nome:<input type="text" name="nome"></label><br><br>
+                        <label>E-mail:<input type="email" name="email"></label><br><br>
+                        <label>Telefone:<input type="number" name="telefone"></label><br><br>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Dados da Compra</legend>
+                        <p>Sabor do Bolo</p>
+                        <label><input type="radio" name="bolo">Banana</label><br>
+                        <label><input type="radio" name="bolo">Chocolate</label><br>
+                        <label><input type="radio" name="bolo">Morango</label><br>
+                        <p>Opções de Cobertura</p>
+                        <label><input type="radio" name="cobertura">Chocolate</label><br>
+                        <label><input type="radio" name="cobertura">Caramelo</label><br>
+                        <label><input type="radio" name="cobertura">Frutas Vermelhas</label><br>
+                        <label><input type="radio" name="cobertura">Framboesa</label><br>
+                        <label><input type="radio" name="cobertura">Chocolate Branco</label><br>
+                        <label><input type="radio" name="cobertura">Baunilha</label><br>
+                        <label><input type="radio" name="cobertura">Chantily</label><br>
+                        <label><input type="radio" name="cobertura">Calda de Morago</label><br><br>
+                        <p>Tamanho</p>
+                        <label><input type="radio" name="cobertura">P (até 6 fatias)</label><br>
+                        <label><input type="radio" name="cobertura">M (até 9 fatias)</label><br>
+                        <label><input type="radio" name="cobertura">G (até 15 fatias)</label><br>
+                        <p>Data</p>
+                        <label><input type="date" name="entrega"></label><br>
+                        <p>Horário de Entrega:</p>
+                        <label><input type="radio" name="entrega">Manhã</label><br>
+                        <label><input type="radio" name="entrega">Tarde</label><br>
+                        <label><input type="radio" name="entrega">Noite</label><br>
+                        <p>Endereço de Entrega:</p>
+                        <label>Rua:<input type="text" name="entrega"></label><br>
+                        <label>Número:<input type="number" name="entrega"></label><br>
+                        <label>Bairro:<input type="text" name="entrega"></label><br>
+                        <label>Cidade:<input type="text" name="entrega"></label><br>
+                        <label>CEP:<input type="number" name="entrega"></label><br>
+                        <p>Formas de Pagamento:</p>
+                        <label><input type="radio" name="pagamento">PIX</label><br>
+                        <label><input type="radio" name="pagamento">Dinheiro</label><br>
+                        <label><input type="radio" name="pagamento">Cartão de Crédito/Débito</label><br>
+                        <label><input type="radio" name="pagamento">Transferência Bancária</label><br>
+                        <p>Deseja talher e guardanapo?</p>
+                        <label><input type="radio" name="preferência">Sim</label>
+                        <label><input type="radio" name="preferência">Não</label><br><br>
+                        <p>Observações Adicionais:</p>
+                        <textarea name="mensagem" rows="10" cols="50" placeholder="Digite aqui..."></textarea>
+                    </fieldset>
+                    <br>
+                    <input type="reset" value="Limpar">
+                    <button type="submit">Enviar</button>
+                    <br>
+                </form>
+            </div>
+            <div class="footer">
+                <h3 class="centertxt">Informações para Contato Direto</h3>
+                <p class="centertxt">
+                    Para encomendas e informações, entre em contato conosco: <br>
+                    Telefone: (21) 40028922 <br>
+                    Whatsapp: (21) 969193626 <br>
+                    Email: bolosvovoisa@gmail.com 
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
