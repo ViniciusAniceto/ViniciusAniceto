@@ -1,6 +1,6 @@
 # 🎓 Apresentações da Faculdade
 
-Materiais desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas** da **FAETERJ - Paracambi**, para a disciplina de **Estrutura de Dados**, ministrada pelo professor Carlos Eduardo. :contentReference[oaicite:0]{index=0}
+Materiais desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas** da **FAETERJ - Paracambi**, para a disciplina de **Estrutura de Dados**, ministrada pelo professor Carlos Eduardo.
 
 ## 📚 Apresentações
 
